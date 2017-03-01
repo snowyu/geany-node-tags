@@ -1,5 +1,5 @@
 var fs = require("fs"),
-    http = require("http"),
+    http = require('follow-redirects').http,
     path = require("path"),
     async = require("async"),
     traverse = require("traverse"),
